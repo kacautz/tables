@@ -1,0 +1,72 @@
+<!--Tabela complexa
+Quantos produtos foram produzidos, 
+quantos foram vendidos e agrupados por nome dos produtos-->
+
+<table>
+
+    <caption>Produzidos x Vendidos por loja</caption>
+
+    <colgroup>
+        <!--Tag para agrupar as colunas-->
+        <col>
+        <col span="2" style="background-color: rgb(194, 74, 194)">
+        <col span="2" style="background-color: pink">
+    </colgroup>
+
+    <thead>
+        <tr>
+            <!--linha-->
+            <th rowspan="2"></th>
+            <!--rowspan: para ocupar x linhas-->
+            <th colspan="2" scope="colgroup">Riachuelo</th>
+            <!--colspan: para ocupar x colunas-->
+            <th colspan="2" scope="colgroup">Marisa</th>
+        </tr>
+
+        <tr>
+            <!--linha-->
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <th scope="row">Camisas</th>
+            <td>50</td>
+            <td>30</td>
+            <td>30</td>
+            <td>20</td>
+        </tr>
+
+        <tr>
+        <th scope="row">Vestidos</th>
+        <td>80</td>
+        <td>60</td>
+        <td>50</td>
+        <td>50</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Calças</th>
+            <td>50</td>
+            <td>45</td>
+            <td>34</td>
+            <td>29</td>
+        </tr>
+
+        <tr>
+            <th>TOTAL</th>
+            <td>180</td>
+            <td>135</td>
+            <td>114</td>
+            <td>99</td>
+        </tr>
+
+
+
+    </tbody>
+
+</table>
